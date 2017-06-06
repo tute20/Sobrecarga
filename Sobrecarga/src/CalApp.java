@@ -5,18 +5,12 @@ public static void main(String[] args) {
 	
 	calc.mostrarResultado(calc.suma("12","33"));
 
+	calc.mostrarResultado(calc.suma("33.5", "12.5"));
 	
+	calc.mostrarResultado(calc.suma(10, 20, 30));
 	
-	System.out.println("Suma");
-	System.out.println(calc.suma("12","33"));
+	calc.mostrarResultado(calc.suma(2.5, 3.1, 8.4));
 	
-	System.out.println("Suma");
-	System.out.println(calc.suma("3","5","2"));
-	
-	System.out.println("Suma");
-	System.out.println(calc.suma("3.2","2.3"));
-	
-	System.out.println("Suma");
-	System.out.println(calc.suma("10.5","33.4","2.1"));
+	calc.mostrarResultado(calc.suma("15", "30", "25"));
 }
 }
